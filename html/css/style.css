@@ -1,0 +1,61 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.success {
+    background-color: rgba(23, 23, 23, 0.3);
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    border-left: 0.5rem solid #20bb44;
+	transition-duration: 0.4s;
+}
+
+.success:hover {
+    background-color: #457692;
+    color: white;
+}
+
+.primary {
+    background-color: rgba(23, 23, 23, 0.3);
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    border-left: 5px solid #1c75d2;
+	transition-duration: 0.4s;
+}
+
+.primary:hover {
+    background-color: #457692;
+    color: white;
+}
+
+.error {
+    background-color: rgba(23, 23, 23, 0.3);
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    border-left: 5px solid #c10114;
+}
+
+.police {
+    background-color: rgba(23, 23, 23, 0.3);
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    border-left: 5px solid #2197f2;
+	transition-duration: 0.4s;
+}
+
+.police:hover {
+    background-color: #457692;
+    color: white;
+}
+
+.ambulance {
+    background-color: rgba(23, 23, 23, 0.3);
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    border-left: 5px solid #f44236;
+	transition-duration: 0.4s;
+}
+.ambulance:hover {
+    background-color: #457692;
+    color: white;
+}
